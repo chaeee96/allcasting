@@ -1,0 +1,146 @@
+@media (min-width: 750px){
+  .container{
+    /* border: solid pink 1px; */
+  }
+
+
+
+
+}
+
+@media (min-width: 611px) and (max-width: 749px) {
+  .container{
+    /* border: solid red 1px; */
+  }
+
+    /* font-size */
+
+  .section01 h1.title{
+    font-size: 4.2rem;
+  }
+  .section01 small.desc,
+  .storeBox span{
+    font-size: 1.4rem;
+  }
+  /* padding */
+
+  small.desc{
+    padding-top: 2rem;
+    padding-bottom: 3.2rem;
+  }
+
+  .mainImg{
+    position: relative;
+    width: 34.6rem;
+    height: 34.6rem;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 610px){
+  .container{
+    /* border: solid blue 1px; */
+  }
+
+  /* font-size */
+  .section01 h1.title{
+    font-size: 3.2rem;
+  }
+  .section01 small.desc,
+  .storeBox span{
+    font-size: 1.2rem;
+  }
+  /* padding */
+  .section01{
+    padding: 0 2rem;
+  }
+  small.desc{
+    padding-top: 1.8rem;
+    padding-bottom: 2.6rem;
+  }
+
+  .storeBox span{
+    padding: .6em;
+  }
+
+  .storeBox span.apple{
+    padding-left: 2.6rem;
+  }
+  .storeBox span.google{
+    padding-left: 3rem;
+  }
+  /* padding 끝*/
+
+  /* margin */
+
+  .storeBox span.google{
+    margin-left: .6rem;
+  }
+  /* margin 끝 */
+  .storeBox span::before{
+    width: 1.6rem;
+    height: 1.6rem;
+    left: .8rem;
+  }
+  .mainImg{
+    position: relative;
+    width: 30.6rem;
+    height: 30.6rem;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 480px){
+  .container{
+    /* border: solid green 1px; */
+  }
+  
+
+  /* font-size */
+  .section01 h1.title{
+    font-size: 2.6rem;
+    letter-spacing: -0.02rem;
+  }
+  .section01 small.desc,
+  .storeBox span{
+    font-size: 1.1rem;
+  }
+  /* padding */
+  .section01{
+    padding: 0 1.4rem;
+  }
+  small.desc{
+    padding-top: 1.8rem;
+    padding-bottom: 2.6rem;
+  }
+
+  .storeBox span{
+    padding: .6em;
+  }
+
+  .storeBox span.apple{
+    padding-left: 2.6rem;
+  }
+  .storeBox span.google{
+    padding-left: 3rem;
+  }
+  /* padding 끝*/
+
+  /* margin */
+
+  .storeBox span.google{
+    margin-left: .6rem;
+  }
+  /* margin 끝 */
+  .storeBox span::before{
+    width: 1.6rem;
+    height: 1.6rem;
+    left: .8rem;
+  }
+
+  .mainImg{
+    position: relative;
+    width: 22.6rem;
+    height: 22.6rem;
+  }
+}
+

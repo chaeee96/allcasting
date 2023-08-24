@@ -35,7 +35,9 @@
 /* color 끝*/
 
 /* padding */
-
+.section01{
+  padding: 0 4rem;
+}
 small.desc{
   padding-top: 2.5rem;
   padding-bottom: 3.8rem;
@@ -115,6 +117,7 @@ small.desc{
   transform: translateY(-50%);
   width: 2.4rem;
   height: 2.4rem;
+  background-size: 100%;
 }
 .storeBox span.apple::before{
   background-image: url(imgs/icon--apple.svg);
