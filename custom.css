@@ -3,11 +3,21 @@
   font-size: 10px;
 }
 
+/* layout */
+.footerWrap{
+  margin: 0 auto;
+  max-width: 120rem;
+}
+/* layout 끝*/
 
 /* color */
 :root {
   --color-pallete01: #222222;
   --color-pallete02: #FFFFFF;
+}
+
+.mt-20px{
+  margin-top: 2rem;
 }
 /* 공통 */
 
@@ -21,9 +31,18 @@
   font-size: 1.6rem;
 }
 
+.footerItem > a span,
+.modal-footer button{
+  font-size: 1.4rem;
+}
+.footerItem > span{
+  font-size: 1.2rem;
+}
 /* font-size 끝 */
 /* font-weight */
-.storeBox span{
+.storeBox span,
+.footerItem > a span,
+.modal-header h1{
   font-weight: bold;
 }
 /* font-weight 끝 */
@@ -53,6 +72,9 @@ small.desc{
 .storeBox span.google{
   padding-left: 4rem;
 }
+.footerWrap{
+  padding: 4rem 0;
+}
 /* padding 끝*/
 
 /* margin */
@@ -60,6 +82,11 @@ small.desc{
 .storeBox span.google{
   margin-left: 1rem;
 }
+
+.footerItem:not(:first-child){
+  margin-left: 2rem;
+}
+
 /* margin 끝 */
 /* bacground-color */
 
@@ -167,3 +194,41 @@ small.desc{
 .mainImg.change img:nth-child(2){
   opacity: 1;
 }
+
+
+/* footer */
+
+footer{
+  background-color: #222222;
+  color: var(--color-pallete02);
+}
+
+.modal-header{
+  padding: 2rem;
+}
+
+.modal-header h1{
+  color: var(--color-pallete01);
+  margin-top: 1rem;
+}
+
+.btn-close{
+  font-size: 1.8rem;
+  opacity: 1 !important;
+  
+}
+.modal-footer{
+  padding: 2rem;
+}
+.modal-footer button{
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem;
+  opacity: 1 !important;
+}
+
+.modal-body{
+  color: var(--color-pallete01);
+  max-height: 50rem;
+}
+
